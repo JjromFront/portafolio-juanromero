@@ -1,9 +1,10 @@
+
 import React from 'react'
 import  Image from 'next/image'
 
 export const Footer = () => {
     return (
-        <footer className='flex text-white my-8 p-4 sticky bottom-0 w-full justify-between mx-auto'>
+        <footer className='flex text-white my-8 p-4 sticky bottom-0 w-full justify-between mx-auto xls:p-2'>
             <span className="font-semibold text-2xl tracking-tight text-black"><span className='font-semibold text-2xl tracking-tight text-orange uppercase'>&lt;</span>Juan Romero<span className='font-semibold text-2xl tracking-tight text-orange uppercase'>/&gt;</span></span>
             <div className='block flex flex-col  space-y-2'>
                 <span className='text-gray-300 font-semibold text-2xl'>Utility Page</span>

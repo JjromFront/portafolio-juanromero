@@ -15,12 +15,12 @@ export const Navbar = () => {
     }
 
     return (
-        <div className='w-full m-0 bg-pink'>
-            <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6 xls:p-4">
+        <div className='w-full m-0 p-0 '>
+            <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6 xls:p-4 ">
                 <div className="flex items-center flex-shrink-0 text-white mr-10">
                     <span className="font-semibold text-xl tracking-tight text-black"><span className='font-semibold text-xl tracking-tight text-orange uppercase'>&lt;</span>Juan Romero<span className='font-semibold text-xl tracking-tight text-orange uppercase'>/&gt;</span></span>
                 </div>
-                <a className='cursor-pointer ' onClick={handleNavbar}><Image src='./media/icons8-menu.svg' alt='' width={24} height={24}/></a>
+                <a className={`cursor-pointer lg:invisible `} onClick={handleNavbar}><Image src='./media/icons8-menu.svg' alt='' width={24} height={24}/></a>
                 <div className={`w-full block flex-grow lg:flex lg:items-center lg:w-auto  lg:visible ${isOpen}`}>
                     <div className='ml-auto'>
 
