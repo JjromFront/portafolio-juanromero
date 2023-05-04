@@ -6,6 +6,14 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    extend: {
+      margin: {
+        '15': '15px',
+        '35': '35px',
+        '40': '40px',
+        '45': '45px'
+      },
+    },
     screens: {
       'xls':  '390px',
       'xs': '475px',
@@ -17,7 +25,10 @@ module.exports = {
     colors: {
       pink: '#FB868E',
       orange: '#FCA840',
-      cyan: '#D8E3FE',
+      cyan: {
+        100: "#d8eaeb",
+        200: "#D8E3FE",
+      },
       gray: {
         99: "#808080",
         100: '#4E4E4E',
@@ -25,11 +36,11 @@ module.exports = {
         300: '#2A2D2F'
       },
       white: '#F2F2F2',
-      'background-white': '#F6F6F6',
+      'background-white': '#fff',
       black: '#000',
     },
     fontFamily: {
-      primary: ['Open Sans', 'sans-serif'],
+      primary: ['Voces', 'sans-serif'],
       secondary: ['Inter', 'sans-serif']  
       },
     extend: {
