@@ -1,6 +1,7 @@
 import React from 'react'
 import  Image from 'next/image'
 import { useState } from 'react';
+import Link from 'next/link';
 
 
 export const Navbar = () => {
@@ -25,25 +26,25 @@ export const Navbar = () => {
                     <div className='ml-auto'>
 
                         <div className="text-sm lg:flex-grow space-x-6 ">
-                            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-4 cursor-pointer font-semibold xls:ml-6">
+                            <Link className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-4 cursor-pointer font-semibold xls:ml-6" href='.'>
                                 Home
-                            </a>
+                            </Link>
 
-                            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-4 cursor-pointer font-semibold">
+                            <Link className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-4 cursor-pointer font-semibold" href='/About'>
                                 About
-                            </a>
+                            </Link>
 
-                            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-4 cursor-pointer font-semibold    ">
+                            <Link className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-4 cursor-pointer font-semibold" href='/Experience'>
                                 Experience
-                            </a>
+                            </Link>
 
-                            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-6 cursor-pointer font-semibold  ">
+                            <Link className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-6 cursor-pointer font-semibold " href='/Blog'>
                                 Blog
-                            </a>
+                            </Link>
                             
-                            <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-6 cursor-pointer font-semibold  ">
+                            <Link className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-pink mr-6 cursor-pointer font-semibold " href='/Proyects'>
                                 Proyects
-                            </a>
+                            </Link>
 
 
                             <button className="block mt-4 lg:inline-block lg:mt-0 font-semibold text-teal-200 cursor-pointer px-8 py-3 border border-solid border-3 border-orange rounded-full text-black hover:text-white hover:bg-gray-200 transition-all">
