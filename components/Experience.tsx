@@ -18,12 +18,12 @@ export const Experience = () => {
                 <div className='flex'>
 
                     <div className='bg-[#E6F3FC] w-[9rem] p-5 h-[15rem] rounded-xl md:w-[13rem] md:h-[17rem] mr-4'>
-                        <Image src="" alt="" width={150} height={170} />
+                        <Image src="/media/coding.jfif" alt="" width={300} height={300} />
                         <span className='text-gray-99 font-semibold'>Coding & Programming</span>
                     </div>
 
                     <div className='bg-[#F2E9EC] w-[9rem] p-5 h-[15rem] rounded-xl md:w-[13rem] md:h-[17rem]'>
-                        <Image src="" alt="" width={150} height={170} />
+                        <Image src="/media/mockups.jfif" alt="" width={150} height={170} />
                         <span className='text-gray-99 font-semibold'>Product & Brand Designer</span>
                     </div>
                 </div>

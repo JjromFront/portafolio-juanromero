@@ -23,8 +23,8 @@ export const MainPrincipal = () => {
 
 
     return (
-        <section className='w-full h-full xls:'>
-            <div className='grid lg:grid-cols-12  w-fullh-full'>
+        <section className='w-full h-full xls:'> 
+            <div className='grid lg:grid-cols-12  w-full h-full'>
                 <div className='lg:col-span-7 flex flex-col items-center justify-center lg:my-20 p-4 xls:content-center w-auto'>
                     <span className='font-bold text-xl text-gray-200 self-start my-2 text-center xls:self-center md:self-start '>
                         Hello! world
@@ -44,7 +44,7 @@ export const MainPrincipal = () => {
                         <button className='block mt-4 lg:inline-block lg:mt-0 font-semibold text-teal-200 cursor-pointer px-4 lg:px-8 py-2 lg:py-4 border border-solid border-3 bg-gray-300 rounded-full text-white hover:bg-gray-200 transition-all'>
                             Hire Me
                         </button>
-                        <button className='block mt-4 lg:inline-block lg:mt-0 font-semibold text-teal-200 cursor-pointer px-6 lg:px-8 py-3 lg:py-4 border border-solid border-3 bg-cyan-100 rounded-full text-gray-200 hover:bg-cyan-200 border-none transition-all'>
+                        <button className='block mt-4 lg:inline-block lg:mt-0 fFont-semibold text-teal-200 cursor-pointer px-6 lg:px-8 py-3 lg:py-4 border border-solid border-3 bg-cyan-100 rounded-full text-gray-200 hover:bg-cyan-200 border-none transition-all'>
                             Download resume
                         </button>
                     </div>

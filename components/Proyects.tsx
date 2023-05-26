@@ -25,7 +25,7 @@ export const Proyects = () => {
                 <div className='my-10  p-10 md:p-20 w-full flex bg-[#ECE8E9] rounded-xl'>
 
                     <div className='md:w-1/2 :w-full  '>
-                        <h3 className='text-2xl text-gray-300 mb-4 font-semibold xls:text-xl xls:font-bold '>Rick & Morty {width}</h3>
+                        <h3 className='text-2xl text-gray-300 mb-4 font-semibold xls:text-xl xls:font-bold '>Rick & Morty</h3>
                         <span className='text-gray-99 text-sm  '> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad id provident ut quaerat, eveniet distinctio praesentium? Deserunt tempora autem itaque officiis dignissimos earum adipisci.</span>
                         <button className='block mt-10 font-semibold text-teal-200 cursor-pointer px-6 lg:px-8 py-3 lg:py-4 border border-solid border-3 bg-cyan-100 rounded-full text-gray-200 hover:bg-cyan-200 border-none transition-all'>
                             Visit now
